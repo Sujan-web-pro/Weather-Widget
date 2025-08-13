@@ -4,11 +4,11 @@ import { useState } from 'react';
 
 export default function WeatherApp(){
     let [weatherInfo, setWeatherInfo]=useState({
-        city:"Mumbai",
+        city:"City",
         feels_like:37.03,
         temp:33.36,
-        tempMax:33.36,
-        tempMin:33.36,
+        pressure:1005,
+        wind:6.5,
         humidity:46,
         weather:"overcast clouds"
     });
